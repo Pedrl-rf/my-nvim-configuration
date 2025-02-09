@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 -- Atajo para formatear con Prettier
 vim.api.nvim_set_keymap('n', '<leader>p', ':Prettier<CR>', { noremap = true, silent = true })
+-- Atajo para salir del modo terminal usando ESC
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', { noremap = true, silent = true })
+
