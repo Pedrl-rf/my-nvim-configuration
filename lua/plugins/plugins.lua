@@ -31,7 +31,7 @@ return {
     },
   
     -- Plugin para manejo de treesitter
-    { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" },
+    -- { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" },
     
     -- Plugin para iconos
     "nvim-tree/nvim-web-devicons",
